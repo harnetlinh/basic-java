@@ -1,5 +1,6 @@
 /**
  * buoi1
+ * Tên file phải trùng với tên class
  */
 public class buoi1 {
     public static void main(String[] args) {
