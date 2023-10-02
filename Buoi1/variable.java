@@ -16,6 +16,14 @@ public class variable {
 
         System.out.println(str + " Linh"); // in ra màn hình giá trị của biến str
 
+        /**
+         * Quy tắc đặt tên biến
+         * 1. Tên biến phải bắt đầu bằng chữ cái hoặc dấu gạch dưới (_)
+         * 2. Không được bắt đầu bằng số hoặc ký tự đặc biệt (ví dụ: @, #, $, %, ^, &, *, ...)
+         * 3. Tên biến không được trùng với các từ khóa của ngôn ngữ lập trình (ví dụ: public, class, static, void, ...)
+         * 4. Tên biến không được trùng nhau trong cùng 1 phạm vi (ví dụ: trong cùng 1 class, trong cùng 1 hàm, ...)
+         */
+
         // Các phép toán cơ bản
         int x = 5;
         int y = 10;
