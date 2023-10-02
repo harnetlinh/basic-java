@@ -68,12 +68,17 @@ public class variable {
         double m = scanner.nextDouble();
         System.out.println("Giá trị m vừa nhập là: " + m);
 
+        float f = scanner.nextFloat();
+        System.out.println("Giá trị f vừa nhập là: " + f);
+
         char n = scanner.next().charAt(0);  // đọc 1 ký tự từ bàn phím
         System.out.println("Giá trị n vừa nhập là: " + n);
 
         String str1 = scanner.nextLine(); // đọc 1 chuỗi từ bàn phím
 
-        
+        boolean bool = scanner.nextBoolean(); // đọc giá trị true hoặc false từ bàn phím
+
+
 
     }
 }
