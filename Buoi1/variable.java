@@ -12,5 +12,32 @@ public class variable {
         String str = "Hello World"; // khai báo biến str kiểu chuỗi
 
         System.out.println(str + " Linh"); // in ra màn hình giá trị của biến str
+
+        // Các phép toán cơ bản
+        int x = 5;
+        int y = 10;
+        int z = x + y; // cộng
+        int t = x - y; // trừ
+        System.out.println("x + y = " + z);
+        System.out.println("x - y = " + t);
+        System.out.println("x * y = " + x * y); // nhân
+        System.out.println("y / x = " + y / x); // chia
+        int k = x % y; // chia lấy dư
+        System.out.println("x % y = " + k);
+        System.out.println("y % x = " + y % x);
+
+        int i = 1;
+        i++; // tăng i lên 1 đơn vị
+        System.out.println("i++ = " + i);
+        i--; // giảm i xuống 1 đơn vị
+        System.out.println("i-- = " + i);
+        i+=5; // tăng i lên 5 đơn vị
+        System.out.println("i+=5 = " + i);
+        i-=5; // giảm i xuống 5 đơn vị
+        System.out.println("i-=5 = " + i);
+        i*=5; // nhân i với 5
+        System.out.println("i*=5 = " + i);
+        i/=5; // chia i cho 5
+        System.out.println("i/=5 = " + i);
     }
 }
