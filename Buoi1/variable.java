@@ -1,3 +1,6 @@
+// import thư viện để sử dụng Scanner
+import java.util.Scanner;
+
 public class variable {
     public static void main(String[] args) {
         int a; // khai báo biến a kiểu số nguyên 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 22, 100
@@ -39,5 +42,20 @@ public class variable {
         System.out.println("i*=5 = " + i);
         i/=5; // chia i cho 5
         System.out.println("i/=5 = " + i);
+
+        int j;
+        // nhập giá trị j từ bàn phím
+
+         System.out.println("Nhập giá trị j: ");
+
+        /**
+         * Cú pháp nhập giá trị từ bàn phím
+         * Trước khi sử dụng phải import thư viện Scanner ở trên cùng của file code
+         * import java.util.Scanner;
+         */
+        Scanner scanner = new Scanner(System.in);      
+        j = scanner.nextInt();
+        System.out.println("Giá trị j vừa nhập là: " + j);
+
     }
 }
