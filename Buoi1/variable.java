@@ -54,7 +54,7 @@ public class variable {
         int j;
         // nhập giá trị j từ bàn phím
 
-         System.out.println("Nhập giá trị j: ");
+         System.out.println("Nhập giá trị j và m: ");
 
         /**
          * Cú pháp nhập giá trị từ bàn phím
@@ -64,6 +64,16 @@ public class variable {
         Scanner scanner = new Scanner(System.in);      
         j = scanner.nextInt();
         System.out.println("Giá trị j vừa nhập là: " + j);
+
+        double m = scanner.nextDouble();
+        System.out.println("Giá trị m vừa nhập là: " + m);
+
+        char n = scanner.next().charAt(0);  // đọc 1 ký tự từ bàn phím
+        System.out.println("Giá trị n vừa nhập là: " + n);
+
+        String str1 = scanner.nextLine(); // đọc 1 chuỗi từ bàn phím
+
+        
 
     }
 }
