@@ -1,4 +1,5 @@
 package Buoi2;
+
 import java.util.Scanner;
 
 public class exerciseB2 {
@@ -14,7 +15,7 @@ public class exerciseB2 {
         } else {
             System.out.println("So " + a + " la so le");
         }
-
+       
         /**
          * 1. Nhập vào 3 số bất kỳ, kiểm tra xem 3 số đó có phải là 3 cạnh của 1 tam giác hay không
          * 2. Nhập vào 3 số bất kỳ, kiểm tra xem 3 số đó có phải là 3 cạnh của 1 tam giác vuông hay không
